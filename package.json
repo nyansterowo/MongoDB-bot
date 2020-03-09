@@ -1,0 +1,25 @@
+{
+  "name": "simple-mongoDB-bot",
+  "version": "0.0.1",
+  "description": "https://github.com/perssBest/MongoDB-bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "",
+    "mongoose": "",
+    "fs": "",
+    "ms": ""
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/perssBest/MongoDB-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node"
+  ]
+}
