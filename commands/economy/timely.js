@@ -9,7 +9,7 @@ module.exports = {
         message.reply(`Вы уже взяли свой бонус. Приходите через ${ms(config.timely - (Date.now() - data._time))}`)
         }else{
         data._time = Date.now()
-        data.money += config.how
+        data.money += parseInt(config.how)
         data.save()
         let a = new Discord.MessageEmbed()
         .setDescription(`Вы забрали ваш сегодняшний бонус. Вам было выдано \`${config.how}\`копеек`)
