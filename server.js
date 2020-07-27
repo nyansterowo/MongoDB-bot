@@ -55,7 +55,6 @@ bot.on('message', async(message) => {
       res.money += random
       res.xp++
       res.messages++
-      res.save()
 
       if(res.xp >= config.upXP){
         let embed = new Discord.MessageEmbed()
@@ -64,8 +63,10 @@ bot.on('message', async(message) => {
         message.channel.send(embed)
         res.xp -= config.upXP;
         res.level+=1
-        res.save()
       }
+
+      res.save()
+
       if(res.warn >= config.warn){
         if(message.member.kickable == false){
            message.reply(`**${message.author.tag}**, у вас было максимальное количество предупреждений, так как у меня нету прав, я не могу вас кикнуть.  Предупреждения были обнулены.`)
