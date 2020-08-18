@@ -1,6 +1,7 @@
 const schema = mongoose.Schema({
     guildID: String,
     userID: String,
+    
     money: { type: Number, default: 0 },
     level: { type: Number, default: 0 },
     xp: { type: Number, default: 0 },

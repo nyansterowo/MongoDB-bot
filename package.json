@@ -7,10 +7,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "discord.js": "11.6.2",
-    "mongoose": "",
-    "fs": "",
-    "ms": ""
+    "discord.js": "*",
+    "mongoose": "*",
+    "fs": "*",
+    "ms": "*"
   },
   "engines": {
     "node": "12.x"
