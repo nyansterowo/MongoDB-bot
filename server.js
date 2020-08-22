@@ -52,8 +52,6 @@ bot.on('message', async(message) => {
   let guild = await Guild.findOne({ guildID: message.guild.id });
   if(!user) { User.create({ guildID: message.guild.id, userID: message.author.id }); message.channel.send(`\`[✅ DataBase]\` **${message.author.username}** Успешно был(а) добавлен в базу-данных`) }
   if(!guild) { Guild.create({ guildID: message.guild.id }); message.channel.send(`\`[✅ DataBase]\` **${message.guild.name}** Успешно была добавлена в базу-данных`); }   
-  
-  setTimeout(() => { // необходимо для того чтоб бот успевал записать в бд юзера если его нету.
 
     let random = Math.floor(Math.random() * 5)
     user.money += random;
@@ -77,8 +75,6 @@ bot.on('message', async(message) => {
     const command = bot.commands.get(cmdName) || bot.commands.find(cmd => cmd.aliases && cmd.aliases.includes(cmdName));
     if(!require('./config.json').owner.includes(message.author.id) && command.public === false) return;
     command.execute(bot, message, args, config);
-
-  }, 5) // если у вас овер слабый инет, то ставьте побольше, ибо бот не успеет сохранить и напишет ошибку.
 })
 
 bot.login(config.token)
