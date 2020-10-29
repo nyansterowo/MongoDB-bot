@@ -196,3 +196,5 @@ $ yarn add
 _Translation may not be correct, sorry :c_
 
 ## Please put ⭐️ on our repository!
+
+<iframe width="300" height="300" src="https://widget.qiwi.com/widgets/middle-widget-300x300?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPtRxY9twmags8PjjgrRGDAymqGVDM38esMGgUhvBPnaDd2r47n5o8d8hagsooExL5d47JEjvyPuqXoYuqAR8QeBmCwExBgitDoctVofv36" allowtransparency="true" scrolling="no" frameborder="0"></iframe>
