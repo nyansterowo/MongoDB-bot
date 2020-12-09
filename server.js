@@ -73,6 +73,7 @@ bot.on('message', async(message) => {
     const args = message.content.slice(guild.prefix.length).trim().split(/ +/g);
     const cmdName = args.shift().toLowerCase();
     const command = bot.commands.get(cmdName) || bot.commands.find(cmd => cmd.aliases && cmd.aliases.includes(cmdName));
+    if(!command) return;
     if(!require('./config.json').owner.includes(message.author.id) && command.public === false) return;
     command.execute(bot, message, args, config);
 })
