@@ -1,3 +1,6 @@
+Когда нибудь я перепишу этот код..
+
+
 [ <img src="https://media.discordapp.net/attachments/732211790804680814/756420126621958174/1200px-Flag_of_Russia.svg.png?width=651&height=434" wight="10px" height="10px"> Russian Guide ](https://github.com/perssBest/MongoDB-bot#ru-discord-bot-with-mongodb) / [ <img src="https://media.discordapp.net/attachments/732211790804680814/756420126814896178/the-united-states-flag-icon-free-download.jpg?width=825&height=434" wight="10px" height="10px"> English Guide ](https://github.com/perssBest/MongoDB-bot#en-discord-bot-with-mongodb)
 
 <br><br>
