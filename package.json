@@ -1,25 +1,35 @@
 {
-  "name": "simple-mongoDB-bot",
-  "version": "0.0.1",
-  "description": "https://github.com/perssBest/MongoDB-bot",
-  "main": "server.js",
+  "name": "mongodb-bot",
+  "version": "2.0.0",
+  "description": "Discord bot based on the mongoose database",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "discord.js": "*",
-    "mongoose": "*",
-    "fs": "*",
-    "ms": "*"
-  },
-  "engines": {
-    "node": "12.x"
+    "test": "node src/index.js"
   },
   "repository": {
-    "url": "https://github.com/perssBest/MongoDB-bot"
+    "type": "git",
+    "url": "git+https://github.com/nyansterowo/MongoDB-bot.git"
   },
-  "license": "MIT",
   "keywords": [
-    "node"
-  ]
+    "mongoose",
+    "mongodb",
+    "discord",
+    "bot"
+  ],
+  "author": "nyansterowo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyansterowo/MongoDB-bot/issues"
+  },
+  "homepage": "https://github.com/nyansterowo/MongoDB-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.3.1",
+    "mongoose-findorcreate": "^3.0.0",
+    "require-dir": "^1.2.0",
+    "yaml": "^2.0.1"
+  }
 }
