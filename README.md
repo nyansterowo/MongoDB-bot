@@ -14,7 +14,6 @@
 <hr>
 
 **📑 Текстовая иструкция по установке:** [клик](https://github.com/nyansterowo/MongoDB-bot/tree/v2/docs/ru)<br>
-**⏯ Видео инструкция:** [клик](https://github.com/nyansterowo/MongoDB-bot/tree/v2/docs/ru)
 
 **💸 Поддержать автора:**
   - Материально: [клик](https://www.donationalerts.com/r/reedi)
@@ -41,7 +40,6 @@ Greetings! so my pens reached a year later to rewrite this shit code, so also on
 <hr>
 
 **📑 Text installation instructions:** [клик](https://github.com/nyansterowo/MongoDB-bot/tree/v2/docs/en)<br>
-**⏯ Video instructions:** [клик](https://github.com/nyansterowo/MongoDB-bot/tree/v2/docs/en)
 
 **💸 Support the author:**
   - Financially: [клик](https://www.donationalerts.com/r/reedi)
