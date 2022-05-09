@@ -12,7 +12,7 @@ module.exports = {
         let mention = interaction.options.getUser('user');
         let res = interaction.options.getString('reason');
 
-        if(mention.id == interaction.user.id) return interaction.reply("Зачем передать баланс самому себе?");
+        if(mention.id == interaction.user.id) return interaction.reply("Зачем давать предупреждение самому себе?");
         let user = await Model.findOrCreate({ uid: mention.id, gid: interaction.member.guild.id }, { uid: mention.id, gid: interaction.member.guild.id });
 
         user.doc.warns.push({ caseid: user.doc.warns.length, mod: interaction.user.id, reason: res }); user.doc.save();
